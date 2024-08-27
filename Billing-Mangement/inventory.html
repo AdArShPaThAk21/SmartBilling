@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="./css/inventory.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Inventory Management</h1>
+        </header>
+        
+        <section id="inventory-management">
+            <h2>Inventory Management</h2>
+            <div class="inventory-form">
+                <input type="text" id="itemName" placeholder="Item Name">
+                <input type="number" id="itemQuantity" placeholder="Quantity">
+                <select id="itemCategory">
+                    <option value="" disabled selected>Select Category</option>
+                </select>
+                <button onclick="addItem()">Add Item</button>
+            </div>
+            <ul id="inventoryList"></ul>
+        </section>
+
+        <section id="stock-count">
+            <h2>Stock Count</h2>
+            <div class="stock-display">
+                <div id="totalItems">Total Items: 0</div>
+            </div>
+        </section>
+
+        <section id="category-stock-count">
+            <h2>Category-wise Stock Count</h2>
+            <div id="categoryStockDisplay"></div>
+        </section>
+    </div>
+
+    <script src="./js/inventory.js"></script>
+</body>
+</html>

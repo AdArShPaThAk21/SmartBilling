@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #325aa8;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.inventory-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inventory-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.inventory-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #325aa8;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inventory-form button:hover {
+    background-color: #325aa8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.stock-display, .sale-display {
+    font-size: 1.2em;
+}
+
+#totalItems{
+    margin: 10px 0;
+}
+
+.inventory-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+/* ------------------Another Design--------------------------- */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+}
+
+header h1 {
+    margin: 0;
+    color: #3498db;
+    font-size: 2.5em;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.inventory-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inventory-form input,
+.inventory-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.inventory-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.inventory-form button:hover {
+    background-color: #2980b9;
+}
+
+#inventoryList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#inventoryList li {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.stock-display {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+
+#totalItems {
+    font-weight: bold;
+}
+
+#category-stock-count {
+    padding: 15px;
+    background: #ecf0f1;
+    border-radius: 4px;
+}
+
+#categoryStockDisplay div {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+#categoryStockDisplay div:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .inventory-form {
+        flex-direction: column;
+    }
+
+    .inventory-form input,
+    .inventory-form select,
+    .inventory-form button {
+        font-size: 0.9em;
+    }
+} */
